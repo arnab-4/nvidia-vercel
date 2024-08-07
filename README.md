@@ -9,8 +9,8 @@
 </p>
 
 <p align="center">
-  <a href="https://nvidia-ai.vercel.app/" target="_blank">
-    <img src="https://nvidia-ai.vercel.app/og.png" alt="Banner Image" />
+  <a href="https://nvidia-vercel.vercel.app/" target="_blank">
+    <img src="https://nvidia-vercel.vercel.app/og.png" alt="Banner Image" />
   </a>
 </p>
 

@@ -69,7 +69,7 @@ export default function Chat() {
             rel="noopener noreferrer"
             className="hover:text-green-600 transition-all duration-150 ease-linear"
             href="https://build.nvidia.com/explore/discover">
-            NVIDIA NIM
+            NVIDIA AI
           </a>{" "}
           +{" "}
           <a

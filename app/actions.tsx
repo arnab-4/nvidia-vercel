@@ -8,7 +8,7 @@ import { headers } from "next/headers";
 
 const nim = createOpenAI({
   baseURL: "https://integrate.api.nvidia.com/v1",
-  apiKey: process.env.NVIDIA_NIM_API_KEY,
+  apiKey: process.env.NVIDIA_API_KEY,
 });
 
 export async function continueConversation(
