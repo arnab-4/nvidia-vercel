@@ -1,5 +1,5 @@
 
-<h1 align="center">Next.js AI Chatbot — NVIDIA NIM + Vercel AI SDK</h1>
+<h1 align="center">Next.js AI Chatbot — NVIDIA AI + Vercel AI SDK</h1>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Next.js-000000.svg?style=for-the-badge&logo=nextdotjs&logoColor=white">
@@ -30,13 +30,13 @@
 
 ## 🛠️ How It Works
 
-This template uses the NVIDIA NIM API to fetch models and make inferences. The Vercel AI SDK streams the responses from the server to the client in real-time.
+This template uses the NVIDIA AI API to fetch models and make inferences. The Vercel AI SDK streams the responses from the server to the client in real-time.
 
 ## ⚙️ Custom Rate Limiter
 
 NVIDIA NIM provides 1000 credits for free to every new user. A custom rate limiter prevents users from exceeding this limit, set to 10 requests per hour per IP address. You can modify the rate limiter settings in the [`ratelimit.ts`](lib/ratelimit.ts) file.
 
-## 📚 Models Available via NVIDIA NIM
+## 📚 Models Available via NVIDIA AI
 
 Only text-to-text models are included in this template. More models can be added by following the instructions in the [NVIDIA NIM documentation](https://build.nvidia.com/docs/nim/).
 
@@ -75,21 +75,21 @@ Deploy your version of this template with Vercel by clicking the button below.
 1. Use the environment variables defined in [`.env.example`](.env.example) to create a `.env.local` file in the project's root. Ensure not to commit this file to the repository.
 
 ```bash
-NVIDIA_NIM_API_KEY=
+NVIDIA_API_KEY=
 ```
 
-2. Get the NVIDIA NIM API key by signing up on the [NVIDIA NIM website](https://build.nvidia.com/explore/discover/).
+2. Get the NVIDIA NIM API key by signing up on the [NVIDIA AI website](https://build.nvidia.com/explore/discover/).
 
-3. Clone the repository and install the dependencies using `bun`:
+3. Clone the repository and install the dependencies using `npm`:
 
 ```bash
-bun install
+npm install
 ```
 
 4. Run the development server:
 
 ```bash
-bun dev
+npm run dev
 ```
 
 The app should be running at [http://localhost:3000](http://localhost:3000).
