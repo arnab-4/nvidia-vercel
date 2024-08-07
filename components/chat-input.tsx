@@ -15,7 +15,7 @@ import {
 
 const getModelIcon = (modelName: string) => {
   if (modelName.startsWith("meta")) {
-    return <FaMeta className="mr-1.5 text-white" />;
+    return <FaMeta className="mr-1.5 text-blue-400" />;
   } else if (modelName.startsWith("google")) {
     return <FaGoogle className="mr-1.5 text-blue-600" />;
   } else if (modelName.startsWith("ibm")) {
@@ -27,7 +27,7 @@ const getModelIcon = (modelName: string) => {
 
 const getModelTextColor = (modelName: string) => {
   if (modelName.startsWith("meta")) {
-    return "text-white";
+    return "text-blue-400";
   } else if (modelName.startsWith("google")) {
     return "text-blue-600";
   } else if (modelName.startsWith("ibm")) {
