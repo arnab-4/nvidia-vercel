@@ -4,10 +4,10 @@ export const models = [
   "google/gemma-2-27b-it",
   "meta/llama3-8b-instruct",
   "meta/llama3-70b-instruct",
-  "meta/llama-3.1-405b-instruct",
+  // "meta/llama-3.1-405b-instruct",
   "nvidia/llama3-chatqa-1.5-8b",
   "nvidia/llama3-chatqa-1.5-70b",
   "nvidia/nemotron-4-340b-instruct",
   "ibm/granite-8b-code-instruct",
-  "ibm/granite-34b-code-instruct",
+  // "ibm/granite-34b-code-instruct",
 ];
